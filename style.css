@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: #121212;
     color: white;
   }
@@ -28,9 +28,18 @@ body {
     background-color: #1f1f1f;
     padding: 5px 10px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }  
+  
+  .navbar-logo {
+  height: 40px;       /* ajuste selon la taille de ton logo */
+  border-radius: 30px;
+  margin-left: auto;  /* pousse à droite si besoin */
+  margin-right: 30px;
   }
-  
-  
+
 
   h1, h2, h3 {
     text-align: center;
