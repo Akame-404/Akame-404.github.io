@@ -6,7 +6,7 @@ window.addEventListener('scroll', function () {
     document.getElementById('progress-bar').style.width = scrollPercent + '%';
   });
   
-  // --- Navbar qui se cache quand on descend ---
+
   let lastScrollTop = 0;
   const nav = document.querySelector('nav');
   
